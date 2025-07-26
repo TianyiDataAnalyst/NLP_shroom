@@ -1,0 +1,100 @@
+# Section 7 Advanced Model Experiments - Git Ignore File
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model Files (too large for Git)
+*.bin
+*.safetensors
+*.h5
+*.ckpt
+*.pth
+*.pt
+
+# Large Model Directories (keep structure but exclude large files)
+advanced_results/*/pytorch_model.bin
+advanced_results/*/model.safetensors
+advanced_results/*/tf_model.h5
+results/*/pytorch_model.bin
+results/*/model.safetensors
+results/*/tf_model.h5
+
+# Data Files (keep small samples, exclude large datasets)
+data/train/
+data/test/
+*.zip
+*.tar.gz
+
+# Logs and Temporary Files
+*.log
+*.tmp
+*.temp
+wandb/
+.wandb/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.lnk
+
+# Evaluation Results (keep JSON summaries, exclude large files)
+evaluation_results/visualizations/*.png
+advanced_evaluation/visualizations/*.png
+ensemble_results/visualizations/*.png
+
+# Keep important files
+!*.py
+!*.md
+!*.json
+!*.txt
+!*.yml
+!*.yaml
+!requirements.txt
+!README.md
+!LICENSE
+
+# Keep small model config files
+!*/config.json
+!*/tokenizer.json
+!*/tokenizer_config.json
+!*/vocab.txt
+!*/merges.txt
+!*/special_tokens_map.json
+!*/training_args.bin
+!*/training_summary.json

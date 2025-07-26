@@ -1,0 +1,170 @@
+{
+  "advanced_model_path": "./advanced_results/xlm-roberta-base_epochs_12",
+  "baseline_results": {
+    "span_level": {
+      "precision": 0.07772020725388601,
+      "recall": 0.12195121951219512,
+      "f1": 0.09493670886075949,
+      "accuracy": 0.9599428571428571
+    },
+    "token_level": {
+      "accuracy": 0.9599428571428571,
+      "precision": 0.4125,
+      "recall": 0.26148969889064977,
+      "f1": 0.3200775945683802
+    },
+    "detailed_metrics": {
+      "O": {
+        "precision": 0.9727485380116959,
+        "recall": 0.9860691208726066,
+        "f1-score": 0.9793635373428714,
+        "support": 16869.0
+      },
+      "HALLUCINATION": {
+        "precision": 0.4125,
+        "recall": 0.26148969889064977,
+        "f1-score": 0.3200775945683802,
+        "support": 631.0
+      },
+      "accuracy": 0.9599428571428571,
+      "macro avg": {
+        "precision": 0.692624269005848,
+        "recall": 0.6237794098816282,
+        "f1-score": 0.6497205659556258,
+        "support": 17500.0
+      },
+      "weighted avg": {
+        "precision": 0.9525475764411028,
+        "recall": 0.9599428571428571,
+        "f1-score": 0.9555915699205455,
+        "support": 17500.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        16634,
+        235
+      ],
+      [
+        466,
+        165
+      ]
+    ],
+    "statistics": {
+      "total_tokens": 17500,
+      "total_hallucination_tokens": 631,
+      "total_predicted_hallucination_tokens": 400,
+      "total_samples": 50,
+      "total_true_spans": 631,
+      "total_predicted_spans": 400
+    }
+  },
+  "advanced_results": {
+    "span_level": {
+      "precision": 0.06274509803921569,
+      "recall": 0.12598425196850394,
+      "f1": 0.08376963350785341,
+      "accuracy": 0.9394857142857143
+    },
+    "token_level": {
+      "accuracy": 0.9394857142857143,
+      "precision": 0.32751454696591853,
+      "recall": 0.6118012422360248,
+      "f1": 0.42663779101245264
+    },
+    "detailed_metrics": {
+      "O": {
+        "precision": 0.9846597533288335,
+        "recall": 0.9520052206929284,
+        "f1-score": 0.9680571893946249,
+        "support": 16856.0
+      },
+      "HALLUCINATION": {
+        "precision": 0.32751454696591853,
+        "recall": 0.6118012422360248,
+        "f1-score": 0.42663779101245264,
+        "support": 644.0
+      },
+      "accuracy": 0.9394857142857143,
+      "macro avg": {
+        "precision": 0.656087150147376,
+        "recall": 0.7819032314644766,
+        "f1-score": 0.6973474902035388,
+        "support": 17500.0
+      },
+      "weighted avg": {
+        "precision": 0.9604768097346782,
+        "recall": 0.9394857142857143,
+        "f1-score": 0.948132955534161,
+        "support": 17500.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        16047,
+        809
+      ],
+      [
+        250,
+        394
+      ]
+    ],
+    "statistics": {
+      "total_tokens": 17500,
+      "total_hallucination_tokens": 644,
+      "total_predicted_hallucination_tokens": 1203,
+      "total_samples": 50
+    }
+  },
+  "comparison": {
+    "span_precision": {
+      "baseline": 0.07772020725388601,
+      "advanced": 0.06274509803921569,
+      "improvement": -0.014975109214670324,
+      "improvement_pct": -19.26797385620915
+    },
+    "span_recall": {
+      "baseline": 0.12195121951219512,
+      "advanced": 0.12598425196850394,
+      "improvement": 0.004033032456308816,
+      "improvement_pct": 3.307086614173229
+    },
+    "span_f1": {
+      "baseline": 0.09493670886075949,
+      "advanced": 0.08376963350785341,
+      "improvement": -0.011167075352906078,
+      "improvement_pct": -11.762652705061068
+    },
+    "span_accuracy": {
+      "baseline": 0.9599428571428571,
+      "advanced": 0.9394857142857143,
+      "improvement": -0.02045714285714284,
+      "improvement_pct": -2.1310792309066002
+    },
+    "token_accuracy": {
+      "baseline": 0.9599428571428571,
+      "advanced": 0.9394857142857143,
+      "improvement": -0.02045714285714284,
+      "improvement_pct": -2.1310792309066002
+    },
+    "token_precision": {
+      "baseline": 0.4125,
+      "advanced": 0.32751454696591853,
+      "improvement": -0.08498545303408145,
+      "improvement_pct": -20.60253406886823
+    },
+    "token_recall": {
+      "baseline": 0.26148969889064977,
+      "advanced": 0.6118012422360248,
+      "improvement": 0.35031154334537506,
+      "improvement_pct": 133.96762657632223
+    },
+    "token_f1": {
+      "baseline": 0.3200775945683802,
+      "advanced": 0.42663779101245264,
+      "improvement": 0.10656019644407244,
+      "improvement_pct": 33.29198864661779
+    }
+  },
+  "timestamp": "2025-07-25T13:05:46.357853"
+}
