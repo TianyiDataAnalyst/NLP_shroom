@@ -31,7 +31,6 @@
 
 ### Section 1: Setup and Dependencies
 - **Location**: Cells 1-3
-- **Owner**: Partner
 - **Content**: 
   - Environment setup and library imports
   - Directory structure creation (`data/`, `results/`, `predictions/`, `visualizations/`)
@@ -40,7 +39,6 @@
 
 ### Section 2: Data Loading and Exploration 
 - **Location**: Cells 4-7
-- **Owner**: Partner
 - **Content**:
   - Dataset extraction from ZIP files
   - Directory structure analysis
@@ -54,7 +52,6 @@
 
 ### Section 3: Format Checker Usage 
 - **Location**: Cells 8-9
-- **Owner**: Partner
 - **Content**:
   - Sample prediction creation
   - Format validation using provided `format_checker.py`
@@ -62,7 +59,6 @@
 
 ### Section 4: Baseline Model Training 
 - **Location**: Cells 10-13 + `baseline_training_validation.py`
-- **Owner**: Partner + Validation Enhancement
 - **Content**:
   - Training configuration setup
   - Data verification and validation
@@ -77,7 +73,6 @@
 - **Status**: Successfully trained and validated
 
 - **Location**: Cells 14-15 + `baseline_inference_evaluation.py`
-- **Owner**: Partner + Comprehensive Evaluation
 - **Content**:
   - Model inference execution on English test data
   - Comprehensive metrics calculation
@@ -94,7 +89,6 @@
 
 ### Section 6: Predictions and Submission 
 - **Location**: Cells 16-17
-- **Owner**: Partner
 - **Content**:
   - Final prediction generation
   - Format validation
