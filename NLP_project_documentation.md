@@ -28,7 +28,7 @@
 
 ## 📚 Current Notebook Structure
 
-### Section 1: Setup and Dependencies ✅ **COMPLETE**
+### Section 1: Setup and Dependencies
 - **Location**: Cells 1-3
 - **Owner**: Partner
 - **Content**: 
@@ -37,7 +37,7 @@
   - Package installations (`jsonlines`, `seqeval`)
 - **Status**: Functional, may need cleanup
 
-### Section 2: Data Loading and Exploration ✅ **COMPLETE**
+### Section 2: Data Loading and Exploration 
 - **Location**: Cells 4-7
 - **Owner**: Partner
 - **Content**:
@@ -51,7 +51,7 @@
   - Language distribution visualization
 - **Status**: Working with actual data
 
-### Section 3: Format Checker Usage ⚠️ **PARTIAL**
+### Section 3: Format Checker Usage 
 - **Location**: Cells 8-9
 - **Owner**: Partner
 - **Content**:
@@ -59,7 +59,7 @@
   - Format validation using provided `format_checker.py`
 - **Status**: Some format errors encountered, needs refinement
 
-### Section 4: Baseline Model Training ✅ **COMPLETE**
+### Section 4: Baseline Model Training 
 - **Location**: Cells 10-13 + `baseline_training_validation.py`
 - **Owner**: Partner + Validation Enhancement
 - **Content**:
@@ -73,9 +73,8 @@
   - Training time: 105.27 seconds (1.75 minutes)
   - Final loss: 0.1387
   - Checkpoint saved: `./results/`
-- **Status**: ✅ Successfully trained and validated
+- **Status**: Successfully trained and validated
 
-### Section 5: Model Evaluation ✅ **COMPLETE**
 - **Location**: Cells 14-15 + `baseline_inference_evaluation.py`
 - **Owner**: Partner + Comprehensive Evaluation
 - **Content**:
@@ -90,7 +89,7 @@
   - Confusion matrix and visualizations
   - `./evaluation_results/evaluation_summary.json`
   - `./evaluation_results/visualizations/`
-- **Status**: ✅ Complete evaluation with detailed analysis
+- **Status**: Complete evaluation with detailed analysis
 
 ### Section 6: Predictions and Submission 🔄 **IN PROGRESS**
 - **Location**: Cells 16-17
@@ -103,9 +102,8 @@
 
 ---
 
-## 👥 Partner's Implemented Work
 
-### ✅ **Completed Components**
+###  **Completed Components**
 
 1. **Data Pipeline**
    - Automated dataset extraction and loading
@@ -133,7 +131,7 @@
    - `format_checker.py` usage
    - `scorer.py` preparation
 
-### 🔧 **Technical Approach**
+###  **Technical Approach**
 - **Model**: XLM-RoBERTa base for multilingual token classification
 - **Training Strategy**: Leave-one-language-out cross-validation
 - **Data Format**: JSONL with hard/soft label annotations
@@ -141,9 +139,9 @@
 
 ---
 
-## 🚀 Planned Contributions
+##  Planned Contributions
 
-### Section 7: Advanced Model Experiments ✅ **COMPLETE**
+### Section 7: Advanced Model Experiments 
 **Objective**: Improve upon baseline performance through model architecture experiments
 
 **Completed Components**:
@@ -170,7 +168,7 @@
 - `./ensemble_results/` - Ensemble evaluation results
 - `section7_advanced_experiments_report.md` - Comprehensive performance report
 
-### Section 8: Enhanced Evaluation & Analysis [Your Name] 📋 **PLANNED**
+### Section 8: Enhanced Evaluation & Analysis 
 **Objective**: Comprehensive evaluation and error analysis
 
 **Planned Components**:
@@ -192,7 +190,7 @@
 - Error analysis insights
 - Performance improvement recommendations
 
-### Section 9: Data Augmentation & Preprocessing [Your Name] 📋 **PLANNED**
+### Section 9: Data Augmentation & Preprocessing  
 **Objective**: Enhance data quality and quantity for better model performance
 
 **Planned Components**:
@@ -210,7 +208,7 @@
 - Preprocessing pipeline documentation
 - Performance impact analysis
 
-### Section 10: Hyperparameter Optimization [Your Name] 📋 **PLANNED**
+### Section 10: Hyperparameter Optimization  
 **Objective**: Systematic optimization of model hyperparameters
 
 **Planned Components**:
@@ -234,14 +232,14 @@
 
 ## 📊 Work Division
 
-### 🔵 **Partner's Responsibilities**
-- ✅ Core infrastructure and baseline implementation
-- ✅ Data loading and preprocessing pipeline
-- ✅ Basic model training and evaluation
-- 🔄 Final submission preparation and format validation
-- 🔄 Integration testing and bug fixes
+### 🔵 **Dalal's Responsibilities**
+-  Core infrastructure and baseline implementation
+-  Data loading and preprocessing pipeline
+-  Basic model training and evaluation
+-  Final submission preparation and format validation
+-  Integration testing and bug fixes
 
-### 🟢 **Your Responsibilities**
+### 🟢 **Tianyi's Responsibilities**
 - 📋 Advanced model experimentation and optimization
 - 📋 Comprehensive evaluation and error analysis
 - 📋 Data augmentation and preprocessing enhancements
@@ -258,25 +256,25 @@
 
 ## 📈 Progress Tracking
 
-### **Week 1** 📅 **[Date Range]**
+### **Week 1** 📅
 - [ ] Environment setup and notebook familiarization
 - [ ] Code cleanup and organization
 - [ ] Section 7 planning and initial implementation
 - [ ] Baseline reproduction and validation
 
-### **Week 2** 📅 **[Date Range]**
+### **Week 2** 📅
 - [ ] Advanced model experiments (Section 7)
 - [ ] Enhanced evaluation implementation (Section 8)
 - [ ] Performance comparison with baseline
 - [ ] Initial results documentation
 
-### **Week 3** 📅 **[Date Range]**
+### **Week 3** 📅 
 - [ ] Data augmentation experiments (Section 9)
 - [ ] Hyperparameter optimization (Section 10)
 - [ ] Cross-lingual analysis
 - [ ] Error analysis and insights
 
-### **Week 4** 📅 **[Date Range]**
+### **Week 4** 📅 
 - [ ] Final model selection and validation
 - [ ] Comprehensive results compilation
 - [ ] Documentation completion
@@ -286,11 +284,11 @@
 
 ## 📊 Results Summary
 
-### **Baseline Performance** ✅ **COMPLETED**
+### **Baseline Performance**
 ```
 Model: FacebookAI/xlm-roberta-base
 Training: Leave-one-out (English excluded)
-Status: ✅ Training and evaluation completed successfully
+Status: Training and evaluation completed successfully
 
 Training Results:
 - Training Samples: 449 (9 languages)
@@ -312,7 +310,7 @@ Evaluation Data: ./evaluation_results/
 Performance Report: baseline_performance_report.md
 ```
 
-### **Your Contributions** (To be updated)
+
 ```
 [Results from your experiments will be documented here]
 
@@ -347,25 +345,13 @@ Best Performance Achieved:
    - Assigned: Shared
 
 ### **Resolved Issues**
-- ✅ Model training pipeline successfully implemented
-- ✅ Data loading and preprocessing working
-- ✅ Basic inference pipeline functional
+- Model training pipeline successfully implemented
+- Data loading and preprocessing working
+- Basic inference pipeline functional
 
 ---
 
 ## 🎯 Next Steps
-
-### **Immediate Actions** (Next 1-2 days)
-1. [ ] Clean up existing notebook execution states
-2. [ ] Fix undefined function references in evaluation
-3. [ ] Set up development environment
-4. [ ] Begin Section 7 implementation
-
-### **Short-term Goals** (Next week)
-1. [ ] Complete advanced model experiments
-2. [ ] Implement enhanced evaluation metrics
-3. [ ] Conduct initial performance comparisons
-4. [ ] Document preliminary findings
 
 ### **Long-term Objectives** (Project completion)
 1. [ ] Achieve significant performance improvement over baseline
