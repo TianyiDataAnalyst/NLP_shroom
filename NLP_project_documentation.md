@@ -332,13 +332,13 @@ Best Performance Achieved:
 ### **Current Issues**
 1. **Format Checker Errors**
    - Issue: Format validation failing for some prediction files
-   - Status: 🔄 Under investigation
-   - Assigned: Partner
+   - Status: fixed
+   - Assigned: Dalal
 
 2. **Evaluation Code Errors**
    - Issue: Some undefined function references in evaluation cells
-   - Status: 📋 Planned fix
-   - Assigned: Your contribution
+   - Status:  fixed
+   - Assigned: Tianyi
 
 3. **Path Dependencies**
    - Issue: Hardcoded paths may not work in all environments
