@@ -233,13 +233,14 @@
 -  Basic model training and evaluation
 -  Final submission preparation and format validation
 -  Integration testing and bug fixes
+-  Performance improvement and ablation studies
+-  Data augmentation and preprocessing enhancements
 
 ### 🟢 **Tianyi's Responsibilities**
-- 📋 Advanced model experimentation and optimization
-- 📋 Comprehensive evaluation and error analysis
-- 📋 Data augmentation and preprocessing enhancements
-- 📋 Performance improvement and ablation studies
-- 📋 Documentation and results reporting
+-  Advanced model experimentation and optimization
+-  Comprehensive evaluation and error analysis
+-  Data augmentation and preprocessing enhancements
+-  Documentation and results reporting
 
 ### 🟡 **Shared Responsibilities**
 - Code review and quality assurance
