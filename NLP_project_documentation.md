@@ -6,10 +6,10 @@
 ## 📋 Project Overview
 
 **Project**: Mushroom Task 2025 - Multilingual Hallucination Detection  
-**Team Members**: [Partner Name] & [Your Name]  
+**Team Members**: El Amine, Dalal and Gu, Tianyi
 **Repository**: `shroom-main`  
 **Main Notebook**: `NLP_project.ipynb`  
-**Last Updated**: [Date]
+**Last Updated**: 07-29-2025
 
 ---
 
